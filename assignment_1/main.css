@@ -45,3 +45,46 @@ body {
 header nav .menuItem {
   overflow: hidden;
 }
+
+.colouredLine {
+  display: flex;
+  height: 3px;
+  width: 100%;
+  padding-top: 11px;
+  margin-left: -100%;
+  transition: all .4s;
+}
+
+.colouredLine span:first-of-type {
+  width: 39%;
+  height: 100%;
+  background-color: #5a0d64;
+}
+
+.colouredLine span:last-of-type {
+  width: 50%
+  height: 100%
+  background-color: # #e8e872;
+}
+
+header nav .menuItem:hover .colouredLine {
+  margin-left: 1;
+}
+
+header nav .menuItem.active .colouredLine {
+  margin-left; 1 !important;
+}
+
+.subMenu {
+  background-color: white;
+  position: absolute;
+  width: 100px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 10px;
+  padding: 27px 30px;
+  top: 0px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  transition: all .2s;
+  visibility: hidden;
+  opacity: 0;
+}
