@@ -36,7 +36,7 @@ body {
    header a {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 12x;
+  font-size: 12px;
   font-weight: 669;
   letter-spacing: 2.5px;
   color: #47052f;
@@ -49,7 +49,7 @@ header nav .menuItem {
 
 .colouredLine {
   display: flex;
-  height: 3px;
+  height: 4px;
   width: 100%;
   padding-top: 11px;
   margin-left: -100%;
@@ -81,21 +81,53 @@ header nav .menuItem.active .colouredLine {
   position: absolute;
   width: 100px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 10px;
-  padding: 27px 30px;
+  padding: 27px 33px;
   top: 0px;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
-  transition: all .2s;
+  transition: all .21s;
   visibility: hidden;
   opacity: 0;
 }
 
 .subMenu p:hover {
-  color: rgba(0,0,0,.85);
+  color: rgba(0,0,0,.95);
 }
 
 nav .menuItem.dropdown:hover .subMenu {
   top: 59px;
   visibility: visible;
   opacity: 1;
+}
+
+#bannerpage a {
+  text-transform: uppercase;
+  color: beige;
+  font-size: 15px;
+  letter-spacing: 7px;
+  padding: 30px 60px;
+  background-image: url(./images/bttnbg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-size: auto 63px ;
+  transition: all .2s;
+}
+
+section#bannerpage {
+  background-image: url(./images/bnnr.jpeg);
+  height: 110VH;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 39px;
+}
+
+#bannerpage h2 {
+  font-size: 80px;
+  color: black;
+  letter-spacing: 14px;
 }
