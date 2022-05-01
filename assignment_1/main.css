@@ -16,3 +16,32 @@ body {
     letter-spacing: .162em;
     margin-bottom: 3px;
   }
+
+  header {
+   display: flex;
+   height: 84px;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 51px;
+   border-bottom: 3px solid #e8e872;
+   background-color: beige;
+
+   header nav {
+     display: flex;
+     gap: 44px;
+     position: relative;
+   }
+
+   header a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12x;
+  font-weight: 669;
+  letter-spacing: 2.5px;
+  color: #e8e872;
+  padding: 0 3px;
+}
+
+header nav .menuItem {
+  overflow: hidden;
+}
