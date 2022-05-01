@@ -177,6 +177,7 @@ section#bannerpage {
   height: 600px;
   background-repeat: no-repeat;
   background-position: 350px -150px;
+  z-index: -2;
 }
 
 #abtSub a div {
@@ -189,4 +190,46 @@ section#bannerpage {
   width: 13px;
   height: 4px;
   transition: all .2s;
+}
+
+#abtSub {
+  display: flex;
+  gap: 21px;
+  margin-top: 47px;
+}
+
+#abtSub p {
+  color: black;
+  margin-bottom: 46px;
+}
+
+#abtSub a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 3px;
+  color: #5c303d;
+  font-weight: 430;
+}
+
+
+
+#abtSub a div span:nth-child(1) {
+  background-color: #ed4845;
+  width: 2px;
+}
+
+#abtSub a div span:nth-child(2) {
+  background-color: #ff934a;
+}
+
+#abtSub a div span:nth-child(3) {
+  background-color: #3a58d6;
+  margin-right: 12px;
+}
+
+#abtSub a:hover div span:nth-child(1) {
+  width: 13px;
 }
