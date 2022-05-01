@@ -165,3 +165,28 @@ section#bannerpage {
 #abtContent {
   position: relative;
 }
+
+#abtContent:before {
+  content: '';
+  background-image: url(./svgs/vector1.svg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: 350px -150px;
+}
+
+#abtSub a div {
+  letter-spacing: 4px;
+  font-size: 2px;
+}
+
+#abtSub a div span {
+  display: inline-block;
+  width: 13px;
+  height: 4px;
+  transition: all .2s;
+}
