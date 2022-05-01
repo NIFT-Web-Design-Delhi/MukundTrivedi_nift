@@ -69,11 +69,11 @@ header nav .menuItem {
 }
 
 header nav .menuItem:hover .colouredLine {
-  margin-left: 1;
+  margin-left: 0;
 }
 
 header nav .menuItem.active .colouredLine {
-  margin-left; 1 !important;
+  margin-left: 0 !important;
 }
 
 .subMenu {
