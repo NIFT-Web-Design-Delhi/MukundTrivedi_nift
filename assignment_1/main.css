@@ -143,7 +143,25 @@ section#bannerpage {
 }
 
 
-
 #bannerpage a:hover {
   background-position: 51% 48%;
+}
+
+#abt {
+  width: 1331px;
+  margin: 0 auto;
+  padding: 124px 0;
+  display: flex;
+  gap: 110px;
+}
+#abt h2 {
+  font-size: 23px;
+  margin-top: 7px;
+}
+
+#abt h4 {
+  font-size: 15px;
+}
+#abtContent {
+  position: relative;
 }
