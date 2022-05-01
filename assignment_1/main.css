@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Lato:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 212;
+    color: #e8e872;
+  }
+
+  p {
+    line-height: 24px;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Alegreya', serif;
+    font-weight: 592;
+    letter-spacing: .162em;
+    margin-bottom: 3px;
+  }
