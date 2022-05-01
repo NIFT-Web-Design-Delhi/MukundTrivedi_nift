@@ -3,7 +3,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 212;
-    color: #e8e872;
+    color: #b8492e;
   }
 
   p {
@@ -232,4 +232,25 @@ section#bannerpage {
 
 #abtSub a:hover div span:nth-child(1) {
   width: 13px;
+}
+
+#collagemain span p {
+  color: black;
+}
+
+#collagemainSingle:hover span, #collagemainSmall > div:hover span {
+  opacity: 4;
+  bottom: 14px;
+}
+
+#collagemain {
+  width: 1400px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#collagemainSingle, #collagemainSmall {
+  position: relative;
+  width: 60%;
 }
