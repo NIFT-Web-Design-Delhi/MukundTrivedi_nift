@@ -90,7 +90,7 @@ section#index {
 
 #index p {
   color: #white;
-  font-size: 20px;
+  font-size: 26px;
   width: 849px;
   text-align: center;
   line-height: 34px;
@@ -104,7 +104,7 @@ section#index {
   color: white;
   font-size: 14px;
   letter-spacing: 5px;
-  padding: 26px 52px;
+  padding: 22px 52px;
   background-image: url(./images/button.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -127,4 +127,73 @@ footer {
 
 footer > section {
   width: 18%;
+}
+
+#aboutmain #aboutprofile {
+  margin-top: 33px;
+}
+
+#aboutmain #aboutprofile img {
+  margin-bottom: 15px;
+}
+
+#aboutmain #aboutprofile h4 {
+  margin-bottom: 3px;
+}
+
+#aboutmain #aboutprofile p {
+  color: #b6d6d2;
+}
+
+#aboutmain {
+  position: relative;
+  text-align: center;
+  padding: 133px 0;
+}
+
+#aboutmain:before {
+  content: '';
+  display: block;
+  background-image: url(./images/profileabout.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  opacity: 0.4;
+  top: 30%;
+  left: 40%;
+  z-index: -1;
+}
+
+#aboutmain h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 22px 0;
+}
+
+#aboutmain p {
+  width: 730px;
+  margin: 0 auto;
+  line-height: 26px;
+}
+
+#index2 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 5px;
+  padding: 26px 52px;
+  background-image: url(./images/button.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-size: auto 57px ;
+  transition: all .4s;
+
+}
+
+#index2 a:hover {
+  background-position: 43% 57%;
 }
