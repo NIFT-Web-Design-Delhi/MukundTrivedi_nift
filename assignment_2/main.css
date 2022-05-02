@@ -7,7 +7,7 @@
                  body {
                    font-family: 'Lato', sans-serif;
                    font-weight: 250;
-                   color: #74a8db;
+                   color: #243c54;
                  }
 
                  p {
@@ -35,3 +35,96 @@
          transform: translateY(0);
          }
         }
+
+
+section#index {
+  background-image: url(./images/bg1.jpg);
+  height: 80VH;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+
+.fade-in-text {
+  animation: fadeIn linear 7s;
+  -webkit-animation: fadeIn linear 7s;
+  -moz-animation: fadeIn linear 7s;
+  -o-animation: fadeIn linear 7s;
+  -ms-animation: fadeIn linear 7s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+#index h1 {
+  font-size: 60px;
+  color: #243c54 ;
+  letter-spacing: 8px;
+}
+
+#index p {
+  color: #white;
+  font-size: 20px;
+  width: 849px;
+  text-align: center;
+  line-height: 34px;
+  font-style: italic;
+    margin-bottom: 22px;
+}
+
+#index a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 5px;
+  padding: 26px 52px;
+  background-image: url(./images/button.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-size: auto 57px ;
+  transition: all .4s;
+}
+
+#index a:hover {
+  background-position: 43% 57%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  padding: 1px 0;
+  background-color: #243c54;
+}
+
+footer > section {
+  width: 18%;
+}
