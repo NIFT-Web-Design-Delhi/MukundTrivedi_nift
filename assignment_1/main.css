@@ -496,3 +496,51 @@ section#bannerpage {
   font-weight: 450;
   letter-spacing: .170em;
 }
+
+#ID {
+  display: flex;
+}
+
+#ID1, #ID2 {
+  width: 52%;
+}
+
+#ID1 {
+  background-image: url(./images/ID.jpeg);
+  background-repeat: none;
+  background-size: cover;
+}
+
+#ID2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 80px;
+  padding: 85px 0 55px;
+  background-color: #ffdec9;
+}
+
+#ID2 > div {
+  width: 240px;
+}
+
+#ID2 h2 {
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-top: 22px;
+}
+
+#ID2 p {
+  color: BLACK;
+}
+
+#ID2 img {
+  position: relative;
+  top: 0px;
+  transition: all .9s;
+  cursor: pointer;
+}
+#ID2 img:hover {
+  position: relative;
+  top: -20px;
+}
